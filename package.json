@@ -1,0 +1,31 @@
+{
+  "name": "yourneighbors",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@svgr/webpack": "^5.5.0",
+    "next": "12.0.4",
+    "next-fonts": "^1.5.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-slideshow-image": "^3.6.0",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "engines": {
+    "node": "14.18.1",
+    "npm": "6.14.15"
+  }
+}
